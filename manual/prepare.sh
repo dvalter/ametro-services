@@ -1,6 +1,7 @@
 #!/bin/bash
 
-WORKING_PATH=/opt/ametro-services/manual
+# WORKING_PATH=/opt/ametro-services/manual
+WORKING_PATH=.
 INNOEX_FILE=${WORKING_PATH}/innoextract
 INNO_FILE=${WORKING_PATH}/innoextract-1.7-linux/innoextract
 PMETRO_FILE=${WORKING_PATH}/pMetroSetup.exe
