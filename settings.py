@@ -16,7 +16,7 @@ def ensure_directories_created(paths):
 FORCE_REFRESH = False
 FORCE_IMPORT = False
 
-MAPS_SOURCE_URL = 'https://maps.ametro.org/autoupdate/'
+MAPS_SOURCE_URL = 'file://' + os.path.realpath('.') + '/www/autoupdate/'
 
 base_dir = ''
 
